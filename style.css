@@ -1,0 +1,62 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 800px;
+    height: 150px;
+}
+
+table tr:first-child{
+    background-color: #098f8f;
+    color: #1D438A;
+}
+
+table tr:first-child:hover{
+    background-color: #1D438A;
+    color: #098f8f;
+}
+
+table tr:nth-child(2){
+    background-color: #f5f509;
+    color:#132F65;
+}
+
+table tr:nth-child(2):hover{
+    background-color: #132F65;
+    color:#f5f509;
+}
+
+.japan{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.japanDiv{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.japanPosition{
+    position: relative;
+    top: 10px;
+}
+
+.japanPosition div{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.japanTransform {
+    transform: translate(410px, -192px);
+}
+
+.japanTransform div{
+    transform: translate(150px, 50px);
+}
