@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web lab 4">
+    <meta name="keywords" content="HTML, CSS">
+    <title>Рожко М.М. ІО-92</title>
+</head>
+<body>
+    <h2>Рожко Михайло Михайлович</h2>
+    <p>Місце народження: 23.03.2001 м. Чернівці, Україна</p>
+    <p>Освіта: Школа №2 м. Чернівці;</p>
+    <p style="margin-left: 54px">НТУУ "КПІ", м. Київ.</p>
+    <p>Хоббі:</p>
+    <ul>
+      <li>Подорожі</li>
+      <li>Спорт</li>
+      <li>Їжа</li>
+    </ul>
+    <p id="first-el" onclick="changeColorFirst('green', 'red')">Улюблені фільми:</p>
+    <ol  class="second-el" onclick="changeColorSecond('blue', 'brown')">
+      <li>"Втеча з Шоушенка", 1994</li>
+      <li>"Бійцівський клуб", 1999</li>
+      <li>"Недоторканні", 2012</li>
+    </ol>
+    <p>Чернівці́ — адміністративний, політичний і релігійний центр Чернівецької області, важливий культурний та
+        науково-освітній осередок України. Місто розміщене на південному заході України за 40 км від румунського
+        кордону. Чисельність населення міста становить 264,3 тис. осіб (01.01.2022). Територія Чернівців
+        становить 153 км². Місто — центр Чернівецької агломерації, населення якої складає 723,1 тис. осіб.</p>
+    <a href="https://city.cv.ua/"><img src="https://bukinfo.com.ua/news-gallery/628f7bbdda395.jpg" alt="img"
+    style="width: 800px; height: 500px;"></a>
+    <div id="img"></div>
+    <p>
+         <button onclick="addImg()">Додати</button>
+         <button onclick="increaseImg()">Збільшити</button>
+         <button onclick="reduceImg()">Зменшити</button>
+         <button onclick="deleteImg()">Видалити</button>
+    </p>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
