@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web lab 5">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <title>web lab. 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form-section">
+        <div id="form-input">
+            <form method="post">
+                <h2>Form</h2>
+                <input type="text" name="FullName" id="FullName" placeholder="Full name" onchange="FullNameCase()">
+                <p class="info1"></p><br>
+                <input type="text" name="IDcard" id="IDcard" placeholder="ID card" onchange="IDcardCase()" maxlength="10">
+                <p class="info2"></p><br>
+                <input type="text" name="Faculty" id="Faculty" placeholder="Faculty" onchange="FacultyCase()" maxlength="4">
+                <p class="info3"></p><br>
+                <input type="text" name="DateOfBirth" id="DateOfBirth" placeholder="Date of birth" onchange="DateOfBirthCase()" maxlength="10">
+                <p class="info4"></p><br>
+                <input type="text" name="Address" id="Address" placeholder="Address" onchange="AddressCase()">
+                <p class="info5"></p><br>
+                <input type="button" name="Submit" id="Submit" onClick="FormData()" value="Submit">
+            </form>
+        </div>
+        <div id="form-output">
+            <h2>Result</h2><br>
+            <div id='ValidFullName'> </div><br>
+            <div id='ValidIDcard'> </div><br>
+            <div id='ValidFaculty'> </div><br>
+            <div id='ValidDateOfBirth'> </div><br>
+            <div id='ValidAddress'> </div><br>
+        </div>
+    </div>
+    <div id="table-section">
+        <h3>Table</h3><br>
+        <input type="color" id="colorSelected">
+         <br>
+         <table>
+             <tr>
+                 <th>1</th>
+                 <th>2</th>
+                 <th>3</th>
+                 <th>4</th>
+                 <th>5</th>
+                 <th>6</th>
+             </tr>
+             <tr>
+                 <th>7</th>
+                 <th>8</th>
+                 <th id="cell9">9</th>
+                 <th>10</th>
+                 <th>11</th>
+                 <th>12</th>
+             </tr>
+             <tr>
+                 <th>13</th>
+                 <th>14</th>
+                 <th>15</th>
+                 <th>16</th>
+                 <th>17</th>
+                 <th>18</th>
+             </tr>
+             <tr>
+                 <th>19</th>
+                 <th>20</th>
+                 <th id="cell21">21</th>
+                 <th>22</th>
+                 <th>23</th>
+                <th>24</th>
+             </tr>
+             <tr>
+                 <th>25</th>
+                 <th>26</th>
+                 <th>27</th>
+                 <th>28</th>
+                 <th>29</th>
+                 <th>30</th>
+             </tr>
+             <tr>
+                 <th>31</th>
+                 <th>32</th>
+                 <th id="cell33">33</th>
+                 <th>34</th>
+                 <th>35</th>
+                 <th>36</th>
+             </tr>
+         </table>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
